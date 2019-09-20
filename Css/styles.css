@@ -1,0 +1,109 @@
+body,html{
+	
+
+}
+
+
+.row:after{
+	content:"";
+	display:table;
+	clear:both;
+
+
+
+}
+
+.column{
+	float: left;
+	width:33.33%;
+	height:100vh;
+	
+}
+
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+
+.login{
+	margin-right:auto;
+	margin-left:100px;
+}
+
+#welcome_logo{
+	font-weight:bold;
+	color:blue ;
+}
+
+#welcome_logo >p{
+	color:#000;
+}
+
+.login_section{
+	
+	
+}
+.welcome_page{
+	margin-bottom:40px;
+}
+ .login_portal{
+	margin-top:250px;
+
+}
+
+#submit_id{
+	margin-top:30px;
+	width:150px;
+	height:30px;
+	border-radius:10px;
+	background-color:blue;
+	font-weight:bold;
+	color:#fff;
+	border-color:blue;
+	font-size:20px;
+}
+
+#password_log, #email_log{
+	height:30px;
+	width:300px;
+	margin-bottom:10px;
+}
+#check_log{
+	height:20px;
+	width:20px;
+}
+
+/*colunm 3 css section for sign up
+*/
+
+.signup_section{
+	margin-right:;
+	margin-left:;
+	text-align: center;
+	color:#fff;
+	margin-top:200px;
+}
+
+.sign_up{
+	font-size:25px;
+	font-weight:bold;
+	text-decoration:underline;
+	margin-bottom:20px;
+}
+
+.signup_link{
+	margin-top:30px;
+}
+#link_sign{
+	width:150px;
+	height:30px;
+	font-size:20px;
+	border-radius:20px;
+	background-color:lightblue;
+	border-color: #fff;
+	color:#fff;
+
+}
+
+	

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+
+<html>
+	
+	<head>
+		<title> Set up</title>
+		<link rel ="stylesheet" href="Css/styles.css">
+	</head>
+
+	<body>
+		<div class = "row">
+			<!--  first colunm for password and email -->
+			<div class = "column" >
+				<div class ="login">
+					<div class ="logo_space" id = "welcome_logo">
+						<h3>Lucid Logo</h3>
+					</div>
+
+					<div class="login_portal">
+     					<div class="welcome_page" id = "welcome_logo">
+     						<h3>Welcome...</h3>
+     						<p>Please Log to your account to continue</p>
+     					</div>
+					
+						<div class="login_section">
+							<input type ="email" id="email_log" placeholder="Please enter your email address">
+						</div>
+						<div class="login_section">
+							<input type ="password" id="password_log" placeholder="Please enter your password">
+						</div>
+						<div class ="login_section">
+							<input type ="checkbox" id="check_log">
+							<label for="remember">Remember me</label>
+						</div>
+						<div class ="login_section">
+							<button type="button" id="submit_id" onclick="return login_client()">Login</button>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- End of first column -->
+			<div class = "column" style="background-color: #000;"></div>
+			<div class ="column" style="background-color: lightblue;">
+				<div class ="signup_section">
+					<div class ="sign_up">
+						<h4>Sign Up Today</h4>
+					</div>
+					<div id ="about">
+						<p>Dont have an account?<br> Create one to start posting</p>
+					</div>
+
+					<div class ="signup_link">
+						<button type ="button" id ="link_sign" onclick="return signup_client()">SIGN UP</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
